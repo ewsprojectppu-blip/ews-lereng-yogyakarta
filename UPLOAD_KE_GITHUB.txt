@@ -1,0 +1,26 @@
+CARA PALING SINGKAT
+
+1. Ekstrak ZIP project.
+2. Buat repository GitHub kosong.
+3. Masuk ke folder hasil ekstrak.
+4. Upload ISINYA, bukan folder pembungkus.
+5. Pastikan di root GitHub terlihat:
+   - app/
+   - .github/
+   - build.gradle
+   - settings.gradle
+   - gradle.properties
+6. Commit changes.
+7. Klik tab Actions.
+8. Tunggu Build APK hijau / Success.
+9. Klik run -> bagian Artifacts.
+10. Download app-debug-apk.
+11. Extract -> app-debug.apk.
+12. Install ke HP.
+
+TIDAK PERLU:
+- Firebase
+- Android Studio
+- google-services.json
+- service account
+- FCM token

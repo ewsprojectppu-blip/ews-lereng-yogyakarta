@@ -1,0 +1,15 @@
+<resources>
+    <color name="navy">#06355D</color>
+    <color name="navy_dark">#022645</color>
+    <color name="bg">#EEF5FB</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text">#16324F</color>
+    <color name="muted">#687B8D</color>
+    <color name="aman">#0AA95B</color>
+    <color name="waspada">#D5A900</color>
+    <color name="siaga">#F39413</color>
+    <color name="awas">#EF5B24</color>
+    <color name="bahaya">#ED2638</color>
+    <color name="unknown">#8795A3</color>
+    <color name="white">#FFFFFF</color>
+</resources>
