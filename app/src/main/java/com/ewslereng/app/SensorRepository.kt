@@ -111,15 +111,15 @@ object SensorRepository {
                     }
                     .getOrNull()
 
-                if (fromData != null) {
-                    return@withContext
-                        FetchResult.Success(fromData)
-                }
+                val snapshot =
+                    if (fromData != null) {
+                        fromData
+                    }
+                    else {
+                        fetchFromStatusAndPower()
+                    }
 
-                val fallback =
-                    fetchFromStatusAndPower()
-
-                FetchResult.Success(fallback)
+                FetchResult.Success(snapshot)
             }
             catch (e: Exception) {
                 FetchResult.Error(
